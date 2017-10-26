@@ -1,0 +1,9 @@
+//
+Note: It's obligatory to end the command with "\r\n".
+Note: It doesn't work to copy and paste whole command (ex: "AT+CREG?\r\n"), because i think i that case \r\n are read wrong
+Note: To send the command copy and insert the command without "\r\n", they are appended automaticly by the program.
+Example of sending messages listed below: AT+CREG? , ATD0046739224421; , AT$;
+//=====================================
+CHECK_STATUS = "AT+CREG?\r\n";
+DIAL = "ATD0046739224421;\r\n";
+DISP_COMMANDS_LIST = "AT$;\r\n";

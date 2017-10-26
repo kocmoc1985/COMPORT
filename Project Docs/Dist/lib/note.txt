@@ -1,0 +1,3 @@
+rxtxSerial.dll, rxtxParallel.dll - belongs to RXTXcomm.jar
+
+win32com.dll - belongs to comm.jar

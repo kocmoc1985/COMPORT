@@ -1,0 +1,6 @@
+Exception in thread "Thread-4" java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:454)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at comport.ComportGui.send_predifined_command(ComportGui.java:97)
+	at comport.ComportGui.run(ComportGui.java:69)
+	at java.lang.Thread.run(Thread.java:724)
